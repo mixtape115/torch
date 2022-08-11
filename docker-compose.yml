@@ -5,8 +5,8 @@ services:
         image: pytorch/pytorch:1.9.0-cuda10.2-cudnn7-devel
         command: ["/bin/bash"]
         build:
-          context: .
-          dockerfile: Dockerfile
+            context: .
+            dockerfile: Dockerfile
         volumes:
             - ./src:/home/user/src
         runtime: nvidia
