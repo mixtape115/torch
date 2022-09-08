@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 FROM nvcr.io/nvidia/pytorch:20.06-py3
 
 ENV DEBIAN_FRONTEND noninteractive 
@@ -15,6 +16,13 @@ RUN apt-get update && apt-get install -y tzdata
 
 RUN apt-get update --fix-missing && \
     apt-get install -y --no-install-recommends \
+=======
+FROM nvidia/cuda:11.0.3-runtime-ubuntu18.04
+
+
+RUN apt-get update
+RUN apt-get install -y --no-install-recommends \
+>>>>>>> 2a3294f4d30bb358b015a9d49a96b661ae5563e9
     sudo \
     build-essential \
     cmake \
