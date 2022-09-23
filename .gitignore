@@ -1,2 +1,9 @@
-./src/data
-./src/dog_wolf
+./src/data/*
+./src/dog_wolf/*
+*.png
+*.jpeg
+*.jpg
+*.gz
+*.tar
+*.zip
+*.pth

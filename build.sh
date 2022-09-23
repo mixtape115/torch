@@ -1,1 +1,1 @@
-docker build -t torch .
+docker build -t torch -f Dockerfile .

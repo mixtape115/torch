@@ -9,6 +9,7 @@ services:
             dockerfile: Dockerfile
         volumes:
             - ./src:/home/user/src
+            - ./data:/home/user/data 
         runtime: nvidia
         tty: true
         ports:
