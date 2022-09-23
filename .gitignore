@@ -1,5 +1,6 @@
 ./src/data/*
 ./src/dog_wolf/*
+<<<<<<< HEAD
 *.png
 *.jpeg
 *.jpg
@@ -7,3 +8,6 @@
 *.tar
 *.zip
 *.pth
+=======
+
+>>>>>>> b803e587344a3cac15d1de2c329e99adcf70fa24
