@@ -1,0 +1,12 @@
+./data
+./src/data/*
+./src/datasets/*
+./src/dog_wolf/*
+./src/numpy/*
+*.png
+*.jpeg
+*.jpg
+*.gz
+*.tar
+*.zip
+*.pth
