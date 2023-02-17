@@ -1,6 +1,8 @@
+./data
 ./src/data/*
+./src/datasets/*
 ./src/dog_wolf/*
-<<<<<<< HEAD
+./src/numpy/*
 *.png
 *.jpeg
 *.jpg
@@ -8,6 +10,3 @@
 *.tar
 *.zip
 *.pth
-=======
-
->>>>>>> b803e587344a3cac15d1de2c329e99adcf70fa24
